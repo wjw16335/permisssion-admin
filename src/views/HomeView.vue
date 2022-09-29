@@ -2,6 +2,11 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+  <p>
+    1
+  2
+3
+  </p>
   </div>
 </template>
 
@@ -14,7 +19,8 @@ export default {
   data() {
     return {
       name: 'jk',
-      age: '1'
+      age: '1',
+      sex: '男'
     }
   },
   components: {
